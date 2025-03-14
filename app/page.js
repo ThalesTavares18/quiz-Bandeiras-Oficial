@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./projeto.css"
 
 
-function quizbandeiras(){
+function Quizbandeiras(){
     
     const [b1, alterab1] = useState(0)
     const [b2, alterab2] = useState(0)
@@ -283,4 +283,4 @@ function quizbandeiras(){
      );
 }
 
-export default quizbandeiras;
+export default Quizbandeiras;
